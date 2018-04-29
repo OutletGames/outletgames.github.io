@@ -8,12 +8,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body>
-
-    Hello, world!
-
+    <div class="parallax-container center valign-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="center">
+            <h1>Outlet Games</h1>
+            <p>Small group of indie devs just trying to make stuff, ukno?</p>
+          </div>
+        </div>
+      </div>
+      <div class="parallax">
+        <img src="images/omaha.png">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s4">
+        <div class="card">
+          <div class="card-image">
+            <img src="images\desk-keyboard-typing-8264.jpg" height="409">
+            <span class="card-title" style="background-color: #3E78B2; color: #07070A">Passion</span>
+          </div>
+          <div class="card-content" style="background-color: #3E78B2; color: #07070A">
+            <p>Our team is full of avid gamers, and we feel that through these experiences that
+            we have a good grasp on what makes a game fun and rewarding to play. We hope to deliver
+            engaging, quality games & share our journey with similar hobbyists.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s4">
+        <div class="card">
+          <div class="card-image">
+            <img src="images\advice-advise-advisor-7096.jpg">
+            <span class="card-title" style="background-color: #3E78B2; color: #07070A">School</span>
+          </div>
+          <div class="card-content" style="background-color: #3E78B2; color: #07070A">
+            <p>Our group is composed of high school students, nearly all of which have
+            taken or are taking nearly all of the computer science classes availible to
+            us. We are currently tackling the complexities of game development.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s4">
+        <div class="card">
+          <div class="card-image">
+            <img src="images\analogue-classic-clock-280264.jpg">
+            <span class="card-title" style="background-color: #3E78B2; color: #07070A">We Need Some Time...</span>
+          </div>
+          <div class="card-content" style="background-color: #3E78B2; color: #07070A">
+            <p>Because some of us do not have much experience in game dev, we want to
+            take our time when it comes to releasing content. Please give us some time, and be
+            sure to sign up to our emailing list in order to get information on new projects or games.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="width: 100%; height: 35px; border-bottom: 3px solid #07070A; text-align: center">
+      <span style="font-size: 40px; background-color:#4A525A; padding: 0 10px;">Sign Up!</span>
+    </div>
+    <br><br>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQfSo9qA5jipxIOsGR-yNbz8Rmuh1Ez6eg1Se8ZoObLdb_7A/viewform?embedded=true" width="100%" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script>
     //init scripts
+    $(document).ready(function(){
+      $('.parallax').parallax();
+    });
     </script>
   </body>
 </html>
